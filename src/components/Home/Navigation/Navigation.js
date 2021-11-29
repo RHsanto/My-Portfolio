@@ -12,8 +12,8 @@ const Navigation = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
    
-    <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <NavLink to='/home'> <li className='nav-link'>Home</li> </NavLink>
         </li>
