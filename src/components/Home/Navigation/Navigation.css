@@ -1,0 +1,32 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+  
+}
+.navbar-brand{
+  font-size: 26px;
+  font-weight: 800;
+}
+.menu .navbar-nav li{
+  margin-left: 20px;
+  font-size: 1.02em;
+   font-weight: 600;
+   
+}
+.menu .navbar-nav li:hover{
+color: #FF694C !important;
+   
+}
+
+.resume-button {
+  border: 1px solid  #FF694C;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FF694C;
+}
+.resume-button:hover{
+  background: radial-gradient(#ff906a,#FF694C);
+  color: white;
+}

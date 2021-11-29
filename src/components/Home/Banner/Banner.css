@@ -1,0 +1,21 @@
+.profile-info h1{
+font-size: 3.5em;
+font-weight: 700;
+}
+
+.profile img{
+width: 100%;
+}
+.btns{
+  padding: 10px 40px;
+  border:none ;
+  font-weight: 800;
+  color: #FF694C;
+  border: 1px solid;
+  border-radius: 5px;
+  }
+  .btns:hover{
+    background: radial-gradient(#ff906a,#FF694C);
+    color: white;
+  }
+  
