@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Navigation.css'
 const Navigation = () => {
   return (
-    <div className='bg-light'>
+    <div className='navigation shadow-lg  fixed-top'>
       <div className="container ">
       <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid ">

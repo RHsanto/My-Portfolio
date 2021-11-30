@@ -9,11 +9,14 @@ a{
   font-size: 26px;
   font-weight: 800;
 }
+.navigation{
+  background-color: #1b56af;
+}
 .menu .navbar-nav li{
   margin-left: 20px;
   font-size: 1.02em;
-   font-weight: 600;
-   
+  font-weight:bold !important;
+  ;
 }
 .menu .navbar-nav li:hover{
 color: #FF694C !important;

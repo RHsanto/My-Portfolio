@@ -7,10 +7,10 @@ const About = () => {
       <h1><span className=' about'>About <span>Me</span></span></h1>
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 animate__animated animate__slideInLeft">
             <img src={AboutImg} alt="" className='w-75'/>
           </div>
-          <div className="col-lg-6 text-start about-info">
+          <div className="col-lg-6 text-light text-start about-info animate__animated animate__slideInRight">
             <p >Hello! I'm Rakibul, a programmer with a good level of expertise in Front-End Web Development. I'm currently studying at Titumir College of BBA on Finance & Banking. I'm a tech lover. I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web development.
            
              </p>  
