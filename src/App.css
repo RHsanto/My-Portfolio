@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.project-section{
+  margin-top: 100px;
+}
+li{
+  list-style: none;
+}
+.info{
+  font-size: larger;
+  line-height: 55px;
+  word-spacing: 5px;
+}
+.project-card .card img{
+  height: 300px
+}

@@ -1,0 +1,36 @@
+[
+  {"id":"1",
+    "name":"DESHGHURI",
+    "img":"../src/images/projects-1.PNG",
+    "ss1":"1",
+    "ss2":"2",
+    "ss3":"3",
+    "description":"A complete stack responsive travel website. Here customers will be able to view and order different types of travel packages",
+    "bulletPoint1":"1",
+    "bulletPoint2":"2",
+    "bulletPoint3":"3"
+  },
+  {
+    "id":"2",
+    "name":"MOTORCYCLE",
+    "img":"../src/images/project-2.PNG",
+    "ss1":"1",
+    "ss2":"2",
+    "ss3":"3",
+    "description":"A full-stack responsive service seller app. Users can request a service, also make a review from the dashboard.",
+    "bulletPoint1":"1",
+    "bulletPoint2":"2",
+    "bulletPoint3":"3"
+  },
+  {"id":"3",
+    "name":"TRUST CARE",
+    "img":"../src/images/project-3.PNG",
+    "ss1":"1",
+    "ss2":"2",
+    "ss3":"3",
+    "description":"This website is a health-related website. This is a responsive site. Users can receive services from here if they want",
+    "bulletPoint1":"1",
+    "bulletPoint2":"2",
+    "bulletPoint3":"3"
+  }
+]

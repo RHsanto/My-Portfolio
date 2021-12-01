@@ -7,13 +7,18 @@ import Contact from './components/Contact/Contact';
 import Navigation from './components/Home/Navigation/Navigation';
 import Example from './Example';
 import Blog from './components/Blog/Blog';
+import Project from './components/Project/Project';
+import ProjectsDetails from './components/ProjectsDetails/ProjectsDetails';
+import Project1 from './components/Projects/AllProjects/Project1';
+import Project2 from './components/Projects/AllProjects/Project2';
+import Project3 from './components/Projects/AllProjects/Project3';
 
 function App() {
   return (
     <div className="App">
      <Router>
        <Example/>
-     <Navigation/>
+       <Navigation/>
        <Switch>
          <Route exact path ='/'>
           <Home/>
@@ -27,6 +32,18 @@ function App() {
          <Route path ='/projects'>
           <Projects/>
          </Route>
+         <Route path ='/project-1'>
+           <Project1/>
+         </Route>
+         <Route path ='/project-2'>
+           <Project2/>
+         </Route>
+         <Route path ='/project-3'>
+           <Project3/>
+         </Route>
+         <Route path='/details/:id'>
+           <ProjectsDetails/>
+           </Route>
          <Route path ='/blog'>
           <Blog/>
          </Route>
