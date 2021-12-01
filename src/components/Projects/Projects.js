@@ -2,12 +2,15 @@ import React from 'react';
 import image1 from '../../images/projects-1.PNG'
 import image2 from '../../images/project-2.PNG'
 import image3 from '../../images/project-3.PNG'
+import './Projects.css'
 const Projects = () => {
   return (
-    <div>
+    <div className='project-section '>
      <div className="container">
-     <h1 className='my-5'>My Recent Projects</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+     <div className='p-title '>
+      <h1 className='my-5'><span className='border-bottom border-2 '>My Recent Projects</span></h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4  ">
   <div class="col">
     <div class="card shadow-lg">
       <img src={image1} class="card-img-top" alt="..."/>

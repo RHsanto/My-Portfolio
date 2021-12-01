@@ -18,7 +18,7 @@ const Example = () => {
       options={{
         background: {
           color: {
-            value: "#1b56af",
+            value: "#071E3D",
           },
         },
         fpsLimit: 60,
@@ -69,7 +69,7 @@ const Example = () => {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 1,
+            speed: 1.5,
             straight: false,
           },
           number: {

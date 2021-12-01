@@ -1,9 +1,7 @@
-.about{
- border-bottom: 2px  solid #FF694C;
-}
 .about-info p{
 font-size: 18px;
 }
-.about-section{
-  background-color: aliceblue;
+.about-section  .p-title h1{
+  opacity: .9;
+  color: white;
 }

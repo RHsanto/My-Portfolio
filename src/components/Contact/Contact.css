@@ -1,4 +1,19 @@
 .contact-section{
   margin-top: 100px;
- 
+  opacity: 0.9;
+  color: white;
+}
+.send-btn{
+  border: 1px solid  #21E6C1;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background: radial-gradient(#40c9b0,#21E6C1);
+  font-weight: bold;
+}
+
+ label{
+color: black !important;
+}
+.title{
+  margin-bottom: 150px ;
 }

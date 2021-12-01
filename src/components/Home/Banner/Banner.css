@@ -12,13 +12,15 @@ width: 100%;
   padding: 10px 40px;
   border:none ;
   font-weight: 800;
-  color: #FF694C;
-  border: 1px solid;
+  color: #21E6C1;
+  border: 2px solid;
   border-radius: 5px;
   }
   .btns:hover{
-    background: radial-gradient(#ff906a,#FF694C);
-    color: white;
-    border:1px solid #FF694C;
+    background: radial-gradient(#40c9b0,#21E6C1);
+    color: rgb(0, 0, 0);
+    border: 2px solid  #21E6C1;
   }
-  
+  .type-text{
+    color: #21E6C1;
+  }

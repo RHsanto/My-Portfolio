@@ -15,35 +15,38 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      alert('Thanks for message')
       form.current.reset();
   };
   return (
     <div className='contact-section p-5'>
     <div className="container">
-    <h1 className='my-5 text-start'>Lets talk!</h1>
-      <div className="row">
-        <div className="col-lg-6">
+    <h1 className='title'> <span className='border-2 border-bottom'>Lets talk</span> !</h1>
+      <div className="row d-flex justify-content-center align-items-center">
+        <div className="col-lg-6 mx-auto">
       <form ref={form} onSubmit={sendEmail}>
       <div class="form-floating mb-3">
-  <input type="text" name="user_name" class="form-control" id="floatingInput1" placeholder="name@example.com"/>
+  <input  type="text" name="name"  class="form-control" id="floatingInput1" placeholder="name@example.com"/>
   <label for="floatingInput1">Your Name</label>
 </div>
       <div class="form-floating mb-3">
-     <input type="email" name="user_email"  class="form-control" id="floatingInput" placeholder="name@example.com"/>
+     <input type="email" name="email"  class="form-control" id="floatingInput" placeholder="name@example.com"/>
       <label for="floatingInput">Email address</label>
      </div>
      <div class="form-floating">
   <textarea class="form-control"  name="message" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
   <label for="floatingTextarea">Comments</label>
 </div>
-
-      <input type="submit" className='btn btn-info my-3' value="Send" />
+{/* <input type="text" name="name" id="" />
+<input type="email" name="email" id="" />
+<textarea name="message" id="" cols="30" rows="10"></textarea> */}
+      <input type="submit" className='send-btn my-3' value="Send" />
      
     </form>
         </div>
-        <div className="col-lg-6 text-light">
-        <div className="contact-info">
-          <h3><span className='text-light'>Connect</span> with me</h3>
+        <div className="col-lg-6 ">
+        <div className="contact-info ">
+          <h3><span className='title'>Connect</span> with me</h3>
           <p><i class="fas fa-map-marker-alt"></i> Sonargoan, Narayongonj, Dhaka</p>
           <p><i class="fas fa-map-marker-alt"></i> +8801887403752</p>
         </div>

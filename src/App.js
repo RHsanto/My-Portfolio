@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Navigation from './components/Home/Navigation/Navigation';
 import Example from './Example';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -26,9 +27,9 @@ function App() {
          <Route path ='/projects'>
           <Projects/>
          </Route>
-         {/* <Route path ='/resume'>
-          <Resume/>
-         </Route> */}
+         <Route path ='/blog'>
+          <Blog/>
+         </Route>
          <Route path ='/contact'>
           <Contact/>
          </Route>
