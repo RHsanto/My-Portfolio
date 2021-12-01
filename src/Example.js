@@ -69,7 +69,7 @@ const Example = () => {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 1.5,
+            speed: 4,
             straight: false,
           },
           number: {
