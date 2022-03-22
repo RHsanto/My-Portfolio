@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import ss1 from '../../../images/p-1-ss-4.PNG'
 import ss2 from '../../../images/p-3-ss-3.PNG'
@@ -42,7 +43,7 @@ const Project1 = () => {
       <div class="card-body">
         <h1 class="card-title fw-bold mb-5">DESHGHURI</h1>
         
-        <div className="info text-start ms-5">
+        <div className="info text-start  ms-5">
         <p><li>● Customers can add new packages if they want in the offers section</li>
            <li>● The customer will be able to order any offer and delete it again if desired </li>
            <li>● Sign Up for google authentication, a private page for logged-in users. </li>

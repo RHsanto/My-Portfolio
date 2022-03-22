@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div className='contact-section p-5'>
     <div className="container">
-    <h1 className='title'> <span className='border-2 border-bottom'>Lets talk</span> !</h1>
+    <h1 className='title'> <span className='border-2 border-bottom '>Lets talk</span> !</h1>
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col-lg-6 mx-auto">
       <form ref={form} onSubmit={sendEmail}>

@@ -46,7 +46,13 @@ li{
   font-size: larger;
   line-height: 55px;
   word-spacing: 5px;
+  color: black !important;
 }
 .project-card .card img{
   height: 300px
+}
+
+body{
+  background-color: #071E3D;
+  color: white;
 }

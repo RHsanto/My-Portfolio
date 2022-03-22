@@ -15,9 +15,9 @@ const Projects = () => {
   <div class="col project-card">
     <div class="card shadow-lg">
       <img src={image1} class="card-img-top" alt="..."/>
-      <div class="card-body">
+      <div class="card-body text-dark">
         <h5 class="card-title fw-bold">DESHGHURI</h5>
-        <p class="card-text">A complete stack responsive travel website. Here customers will be able to view and order different types of travel packages</p>
+        <p class="card-text ">A complete stack responsive travel website. Here customers will be able to view and order different types of travel packages</p>
       <div className="code">
        <Link to='/project-1'>
        <button className='btn btn-warning me-3'>Details </button>
@@ -29,7 +29,7 @@ const Projects = () => {
   <div class="col project-card">
     <div class="card shadow-lg ">
       <img src={image2} class="card-img-top" alt="..."/>
-      <div class="card-body">
+      <div class="card-body text-dark">
         <h5 class="card-title fw-bold">MOTORCYCLE</h5>
         <p class="card-text">A full-stack responsive service seller app. Users can request a service, also make a review from the dashboard.</p>
         <div className="code">
@@ -43,7 +43,7 @@ const Projects = () => {
   <div class="col project-card">
     <div class="card shadow-lg">
       <img src={image3} class="card-img-top" alt="..."/>
-      <div class="card-body">
+      <div class="card-body text-dark">
         <h5 class="card-title fw-bold">TRUST CARE</h5>
         <p class="card-text">This website is a health-related website. This is a responsive site. Users can receive services from here if they want</p>
         <div className="code">

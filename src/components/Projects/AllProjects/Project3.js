@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import ss4 from '../../../images/project-3.PNG'
 import ss2 from '../../../images/projects-2_1.PNG'

@@ -45,7 +45,7 @@ const Example = () => {
             quantity: 4,
           },
           repulse: {
-            distance: 200,
+            distance: 100,
             duration: 0.4,
           },
         },

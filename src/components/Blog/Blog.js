@@ -8,7 +8,7 @@ const Blog = () => {
          <div className="col-lg-6 w-100 mx-auto">
          <div class="card " >
            <div class="card-body">
-           <h1>Blog is Coming</h1>
+           <h1 className='text-dark'>Blog is Coming</h1>
      </div>
 </div>
          </div>
