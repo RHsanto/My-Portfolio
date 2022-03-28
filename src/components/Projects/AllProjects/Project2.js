@@ -47,7 +47,7 @@ const Project2 = () => {
         <p><li>● Customer book any products, and review that service. </li>
            <li>● The Customer sees their previous order list </li>
            <li>● Admin user add product and manage product </li>
-           <li> <strong>◆ Technology Used:</strong>  Html, CSS, Bootstrap,React Bootstarp, React js, Firebase authentication, React router,Metarial UI Node.js, Express.js MongoDB</li> </p>
+           <li> <strong>◆ Technology Used:</strong>  Html, CSS, Bootstrap,React Bootstrap, React js, Firebase authentication, React router,Metrical UI Node.js, Express.js MongoDB</li> </p>
         </div>
                    <div className="code my-4">
       <div className="btn btn-outline-secondary"><i class="fab fa-github"></i> <a className='text-dark' href="https://github.com/RHsanto/racing-car-project-client-side" target='_blank'> Github</a></div>
