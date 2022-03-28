@@ -22,7 +22,7 @@ const Banner = () => {
 
 <div className='d-flex  mt-5 justify-content-center align-items-center button-section  '><a class="resume-button text-dark " target="blank" href="https://www.linkedin.com/in/rakibul-hasan-santo/"> HIRE ME</a> 
 
- <a className='btns ms-3 ' href="https://drive.google.com/file/d/1r6t8GhN25JD4jOrYwv5NRCtZxk_UJary/view" target='_blank'>
+ <a className='btns ms-3 ' href="https://drive.google.com/uc?export=download&id=1r6t8GhN25JD4jOrYwv5NRCtZxk_UJary" target='_blank'>
  <i class="fas fa-file-download"></i>  RESUME</a></div> 
        
            </div>

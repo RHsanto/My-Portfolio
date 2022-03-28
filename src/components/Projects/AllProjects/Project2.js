@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import ss1 from '../../../images/p-1-ss2.PNG'
 import ss2 from '../../../images/p-1ss-3.PNG'
