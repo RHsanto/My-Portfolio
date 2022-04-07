@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Navigation.css'
 const Navigation = () => {
   return (
-    <div className='navigation shadow-lg fixed-top'>
+    <div className='navigation shadow-lg fixed-top '>
       <div className="container ">
       <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid ">
@@ -31,7 +31,7 @@ const Navigation = () => {
         </li>
         <li class="nav-item">
          <li className='nav-link '>
-           <a className='resume-button ' href="https://drive.google.com/file/d/1FN9JumatE5qKHUUsHGGZbKTBk3K7qFk2/view?fbclid=IwAR0kJ3g_zn_MGFjXVbMzYiztBeePxaintMMEVVOhrr5SaeZMeKWoJXEtEPk" target='_blank'>
+         <a className='btns ms-3 ' href="https://drive.google.com/uc?export=download&id=1r6t8GhN25JD4jOrYwv5NRCtZxk_UJary" target='_blank'>
            <i class="fas fa-file-download"></i>   Resume</a>
           </li> 
         </li>

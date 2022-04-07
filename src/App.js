@@ -5,7 +5,6 @@ import About from './components/Home/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Navigation from './components/Home/Navigation/Navigation';
-import Example from './Example';
 import Blog from './components/Blog/Blog';
 import Project1 from './components/Projects/AllProjects/Project1';
 import Project2 from './components/Projects/AllProjects/Project2';

@@ -12,9 +12,10 @@ const Banner = () => {
 
   return (
     <div>
-      <div className="container mt-4">
+      <div 
+     data-aos-anchor-placement="center-center" className="container mt-4 ">
         <div className="row  d-flex justify-content-center align-items-center">   
-          <div className="col-lg-6 wow animate__animated animate__fadeInLeft ">
+          <div  className="col-lg-6  ">
            <div className="profile-info ">
           <h4 className='fw-bold'> Hi ' <img src="https://emojis.slackmojis.com/emojis/images/1565879801/6181/waving_hand_animated.gif?1565879801" width="35"/></h4>
 <h1>I ' m Rakibul Hasan</h1>
@@ -27,7 +28,7 @@ const Banner = () => {
        
            </div>
           </div>
-          <div className="col-lg-6 profile wow animate__animated animate__fadeInRight">
+          <div className="col-lg-6 profile">
            <img src={image} alt="" srcset="" />
           </div>
           

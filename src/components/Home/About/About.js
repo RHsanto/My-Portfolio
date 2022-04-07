@@ -10,10 +10,10 @@ const About = () => {
       
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-lg-6 wow animate__animated animate__slideInLeft">
+          <div className="col-lg-6 ">
             <img src={AboutImg} alt="" className='w-75'/>
           </div>
-          <div className="col-lg-6  text-start about-info wow animate__animated animate__slideInRight">
+          <div className="col-lg-6  text-start about-info ">
             <p >Hello! I'm Rakibul, a programmer with a good level of expertise in Front-End Web Development. I'm currently studying at Titumir College of BBA on Finance & Banking. I'm a tech lover. I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web development.
            
              </p>  

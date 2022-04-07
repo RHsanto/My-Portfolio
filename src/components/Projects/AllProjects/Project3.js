@@ -47,7 +47,7 @@ const Project3 = () => {
            <li> ● There are also a 24-hour emergency doctor and ambulance facilities</li>
            <li> <strong>◆ Technology Used:</strong> Html, CSS, Bootstrap, React js, Firebase authentication,</li> </p>
         </div>
-                   <div className="code my-4">
+     <div className="code my-4">
       <div className="btn btn-outline-secondary"><i class="fab fa-github"></i> <a className='text-dark' href="https://github.com/RHsanto/racing-car-project-client-side" target='_blank'> Github</a></div>
         <div className="btn btn-warning ms-3">
         <i class="fas fa-eye"></i><a className='text-dark' href="https://vibrant-leavitt-6ff91c.netlify.app/" target='_blank'> Live</a> 

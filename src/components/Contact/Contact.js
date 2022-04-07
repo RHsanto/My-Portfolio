@@ -23,7 +23,10 @@ const Contact = () => {
     <div className="container">
     <h1 className='title'> <span className='border-2 border-bottom '>Lets talk</span> !</h1>
       <div className="row d-flex justify-content-center align-items-center">
-        <div className="col-lg-6 mx-auto">
+        <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" className="col-lg-6 mx-auto " >
       <form ref={form} onSubmit={sendEmail}>
       <div class="form-floating mb-3">
   <input  type="text" name="name"  class="form-control" id="floatingInput1" placeholder="name@example.com"/>

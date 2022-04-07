@@ -49,7 +49,7 @@ const Project1 = () => {
            <li>● Sign Up for google authentication, a private page for logged-in users. </li>
            <li><strong>◆ Technology Used:</strong>  Html, CSS, Bootstrap, React js, Firebase authentication, React router, Node.js Express.js MongoDB, </li> </p>
         </div>
-                   <div className="code my-4">
+    <div className="code my-4">
       <div className="btn btn-outline-secondary"><i class="fab fa-github"></i> <a className='text-dark' href="https://github.com/RHsanto/racing-car-project-client-side" target='_blank'> Github</a></div>
         <div className="btn btn-warning ms-3">
         <i class="fas fa-eye"></i><a className='text-dark' href="https://vibrant-leavitt-6ff91c.netlify.app/" target='_blank'> Live</a> 
